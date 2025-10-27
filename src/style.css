@@ -1,0 +1,115 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+:root {
+  --bg-dark: #1c0339;
+  --bg-medium: #3e0979;
+  --bg-light: #6d3da3;
+  --bg-lighter: #b083e2;
+}
+
+html, body, #root {
+  height: auto;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(155deg, var(--bg-dark) 7%, var(--bg-medium) 34%, var(--bg-light) 75%);
+  background-repeat: no-repeat;
+}
+
+.page_title{
+  text-align: end;
+  color: var(--bg-light);
+  font-weight: 200;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.hr{
+  height: 2px;
+  background-color: #ffffff35;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.myCard {
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  padding-bottom: 50px;
+  background-color: #ffffff21;
+  background-image: var(--bs-gradient);
+  color: #ffffffa7;
+  border: 1px inset #ffffff55;
+}
+
+.myCard .title_box {
+  background-color: var(--bg-medium);
+  background-image: var(--bs-gradient);
+  height: 100px;
+  color: #ffffffba;
+}
+
+.myCard .title_box .card-title {
+  font-weight: 100;
+}
+
+.all-about-me {
+  line-height: 1.8;
+  text-align: end;
+  font-size: 1.25rem;
+  font-family: "Comfortaa", sans-serif;
+  color: rgba(255, 255, 255, 0.737254902);
+  font-weight: 100;
+  align-self: flex-end;
+}
+
+.small-chalk {
+  font-size: 1.45rem;
+  text-align: end;
+  margin-top: 6rem;
+  color: rgba(255, 255, 255, 0.737254902);
+  align-self: flex-end;
+  p{
+      font-family: "Comfortaa", sans-serif;
+      font-weight: 900;
+  }
+
+  
+}
+
+#about {
+  background-color: var(--bg-medium);
+  box-shadow: 0 10px 30px #36126034;
+  border: 5px solid #602a9c34;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.go-up-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.go-up-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-dark);
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.go-up-btn:hover {
+  background-color: var(--bg-lighter);
+}

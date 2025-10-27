@@ -1,0 +1,52 @@
+nav {
+  background: rgba(255, 255, 255, 0.038);
+  justify-content: end;
+}
+
+nav > * {
+  margin: 0 4rem;
+  padding: 1rem 0;
+}
+
+.logo-name {
+  opacity: 0.8;
+}
+
+.nav-item-pp {
+  color: #9F84BC;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.active-item {
+  font-size: 1.35rem;
+  color: #d5b1fb;
+  font-weight: 700;
+}
+
+.not-mobile-view {
+  display: block;
+}
+
+.mobile-view {
+  display: none;
+}
+
+@media screen and (max-width: 460px) {
+  nav {
+    justify-content: center;
+  }
+  
+  .not-mobile-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: block;
+  }
+
+  .nav-item-pp {
+    font-size: 1.75rem;
+  }
+}
