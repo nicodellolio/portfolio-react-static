@@ -73,7 +73,7 @@ export default function AppLatestProjects() {
             </div>
           ))}
           <div className="text-center px-2">
-            <a href="/projects" className="btn btn-primary text-light w-100 rounded-4">View all projects</a>
+            <Link to="/projects" className="btn btn-primary text-light w-100 rounded-4">View all projects</Link>
           </div>
         </div>
       </div>
