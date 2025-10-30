@@ -11,6 +11,7 @@ import Contacts from './views/Contacts.jsx'
 import Projects from './views/Projects.jsx'
 import SingleProject from './views/SingleProject.jsx'
 import GoUp from './components/GoUp.jsx'
+import AnalyticsTracker from './components/AnalyticsTracker.jsx';
 
 
 
@@ -26,6 +27,7 @@ export default function App() {
 
   return (
     <>
+      <AnalyticsTracker />
       <AppHeader aboutToAnchor={aboutToAnchor} />
       <Routes>
         <Route path="/" element={<Home />} />
